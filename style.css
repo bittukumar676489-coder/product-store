@@ -1,0 +1,40 @@
+body {
+  background:#0b0014;
+  color:white;
+  font-family:Arial, sans-serif;
+  text-align:center;
+  margin:0;
+}
+
+header {
+  padding:30px;
+}
+
+.products {
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.card {
+  background:#160022;
+  padding:20px;
+  border-radius:15px;
+  width:220px;
+  box-shadow:0 0 20px #ff00ff;
+}
+
+.price {
+  color:#00ffff;
+  font-size:18px;
+}
+
+button {
+  padding:10px 20px;
+  border:none;
+  border-radius:20px;
+  background:#ff00ff;
+  color:black;
+  font-weight:bold;
+}
